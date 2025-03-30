@@ -22,7 +22,15 @@ class bird(animal):
         self.wingspan=wingspan
     def birdmsg(self):
         print("bird is flying")
-bird.birdmsg()
-cat.catmsg()
-dog.dogmsg()
-animal.animalnoise()
+
+namebird=bird("Eagle","Bird","15 CM")
+namecat=cat("Persian","cat","red")
+nameanimal=animal("animal","living")
+namedog=dog("dog","canine","german shepherd")
+
+
+if __name__=="__main__":
+    namebird.birdmsg()
+    namecat.catmsg()
+    namedog.dogmsg()
+    nameanimal.animalnoise()
